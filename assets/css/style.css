@@ -36,15 +36,15 @@ section img {
 }
 
 .menu {
-    font-family: 'Sacramento', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 300%;
-    font-weight: 500;
     padding-top: 30px;
     padding-right: 30px;
 }
 
 .menu a {
     color: rgb(177,15,159);
+    font-weight: 100;
 }
 
 .menu a:hover {
