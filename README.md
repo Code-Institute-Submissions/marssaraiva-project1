@@ -76,11 +76,18 @@ This is the main website for a musician called Saccharyn. It is designed to be a
 
 ## Features
 
+* Responsive on all device sizes
+
 
 ---
 
 
 ## Technologies Used
+
+
+- [HTML5](https://kevq.uk/whats-in-a-font-researching-website-typography/)
+
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 
 ---
