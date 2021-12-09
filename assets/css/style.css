@@ -7,9 +7,8 @@
     border: 0;
 }
 
-
 header {
-    background-color: rgb(36,32,33);
+    background-color: rgb(35,31,32);
     height: 150px;
     width: 100%;
 }
@@ -17,9 +16,25 @@ header {
 header img {
     height: 100%;
     float: left;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 50px;
 }
 
 section img {
     width: 100%;
+}
+
+.menu {
+    font-family: 'Sacramento', sans-serif;
+    font-size: 300%;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.menu a {
+    color: rgb(177,15,159);
+}
+
+.menu a:hover {
+    color: rgb(212,174,193);
 }
