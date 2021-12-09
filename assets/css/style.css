@@ -16,11 +16,23 @@ header {
 header img {
     height: 100%;
     float: left;
-    margin: 0 0 0 50px;
+    margin: 0 0 0 80px;
 }
 
 section img {
     width: 100%;
+    animation-name: img-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes img-zoom {
+    from{
+        transform: scale(1.05);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 
 .menu {
