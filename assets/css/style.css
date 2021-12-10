@@ -9,44 +9,62 @@
 
 header {
     background-color: rgb(35,31,32);
-    height: 150px;
+    height: 130px;
     width: 100%;
 }
 
+header h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 500%;
+    font-weight: 100;
+    float: left;
+    color: rgb(245,227,235);
+    text-shadow: 5px 5px 12px rgb(180,61,116);
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+header h1:hover {
+    color: rgb(212,174,193);
+}
+
+/* 
 header img {
     height: 100%;
     float: left;
     margin: 0 0 0 80px;
 }
-
-section img {
-    width: 100%;
-    animation-name: img-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: backwards;
-}
-
-@keyframes img-zoom {
-    from{
-        transform: scale(1.05);
-    }
-    to{
-        transform: scale(1);
-    }
-}
+*/ 
 
 .menu {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 300%;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-right: 30px;
 }
 
 .menu a {
-    color: rgb(177,15,159);
+    color: rgb(245,227,235);
+    text-shadow: 4px 4px 5px rgb(180,61,116);
     font-weight: 100;
 }
 
 .menu a:hover {
     color: rgb(212,174,193);
+}
+
+section img {
+    width: 100%;
+    animation-name: img-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes img-zoom {
+    from{
+        transform: scale(1.015);
+    }
+    to{
+        transform: scale(1.0);
+    }
 }
