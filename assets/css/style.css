@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: rgb(35,31,32);
+    background-color: rgb(33,31,32);
     height: 130px;
     width: 100%;
 }
@@ -22,19 +22,12 @@ header h1 {
     text-shadow: 5px 5px 12px rgb(180,61,116);
     padding-top: 10px;
     padding-left: 50px;
+
 }
 
 header h1:hover {
     color: rgb(212,174,193);
 }
-
-/* 
-header img {
-    height: 100%;
-    float: left;
-    margin: 0 0 0 80px;
-}
-*/ 
 
 .menu {
     font-family: 'Josefin Sans', sans-serif;
