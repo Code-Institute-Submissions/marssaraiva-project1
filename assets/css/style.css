@@ -29,6 +29,10 @@ header h1:hover {
     color: rgb(212,174,193);
 }
 
+.rotated {
+    transform: rotate(-7deg);
+}
+
 .menu {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 300%;
