@@ -84,16 +84,59 @@ This is the main website for a musician called Saccharyn. It is designed to be a
 
 ## Technologies Used
 
+* Languages Used
+    + [HTML5](https://kevq.uk/whats-in-a-font-researching-website-typography/)
+    + [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-- [HTML5](https://kevq.uk/whats-in-a-font-researching-website-typography/)
+    ---
 
-- [CSS3](https://en.wikipedia.org/wiki/CSS)
+* Frameworks, Libraries and Programs Used
+    + [Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+        - Bootstrap was used to assist with responsiveness and styling of website.
 
+    + [Google Fonts](https://fonts.google.com/)
+        - Google Fonts was used to import 'Sacramento' and 'Josefin Sans' fonts into the style.css file which is used throughout the project
+    
+    + [Font Awesome](https://fontawesome.com/)
+        - Font Awesome was used to source the social media icons found on the footer of the website
+    
+    + [Git](https://git-scm.com/)
+        - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    
+    + [GitHub](https://github.com/)
+        - GitHub was used to store the projects code after being pushed from Git.
+    
+    + [Balsamiq](https://balsamiq.com/)
+        - Balsamiq was used to create the wireframes for the project.
 
 ---
 
 
 ## Testing
+
+* Bugs Discovered
+
+    + Navigation logo issue:
+        - An image was provided of the word 'Saccharyn' written in neon pink to be used as the logo for the header of the website, however this image did not fit with the style of the header bar, as it was too small for its purpose and increasing its size meant increasing the height of the header, pushing the hero image further down, which affected the overall design of the page.
+        - The logo image was resized and moved around, cropped and resized, however the issue persisted. It was also found during this process that the colours used in this logo differed from the colours used in the hero image, which looked inconsistent when generating the colour palette for the website.
+        - As a result it was decided that the logo image would be replaced by text styled with CSS using the colour palette from the hero image to be consistent with the pink neon light effect by using a text-shadow function. This also meant a hover pseudo-class could be employed to alter the colour of the text logo when being hovered over, which was not possible with a static image.
+        - Overall using text was found to be a more elegant solution for making the website more consistent, whilst also looking better in terms of design, improving user experience.
+        - In future a new logo will be commissioned with different parameters to fit the spcifications of the website design, as the original logo provided was designed as a cover image for social media websites such as [Twitter](www.twitter.com), [Instagram](www.instagram.com) and [Facebook](www.facebook.com), and not designed with a website in mind.
+        
+
+    
+
+    ---
+
+* W3C Markup Validator
+
+    ---
+
+* Testing User Stories from User Experience (UX) Section
+
+    ---
+
+* Further Testing
 
 
 ---
@@ -107,6 +150,24 @@ This is the main website for a musician called Saccharyn. It is designed to be a
 
 ## Credits
 
-Love Running hero image zoom [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/).
+* Code
+
+    + Adapted code from the Love Running exercise website for the hero image zoom effect in this website which can be found [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/).
+
+    + Used [Bootstrap4](https://getbootstrap.com/docs/4.5/getting-started/introduction/) throughout website for styling purposes, namely the naviation bar, the grid for the live shows content, and also for responsiveness across different devices.
+
+* Content
+
+    + All content was written by the developer
+
+* Media
+
+    + Hero image was created by [Sara Christova](https://www.sarachristova.com/)
+
+* Acknowledgements
+
+    + My mentor Dick Vlaanderen for his advice and feedback.
+
+    + The tutor support at Code Institute for their assistance.
 
 ---
