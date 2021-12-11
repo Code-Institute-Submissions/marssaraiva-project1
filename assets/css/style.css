@@ -7,19 +7,33 @@
     border: 0;
 }
 
+section h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 30px;
+    color: rgb(245,227,235);
+    text-shadow: 4px 4px 5px rgb(165,55,112);
+    font-weight: 100;
+    padding: 30px 0 30px 0;
+}
+
+/* Header Style */
+
 header {
     background-color: rgb(33,31,32);
-    height: 130px;
+    height: 150px;
     width: 100%;
 }
 
 header h1 {
     font-family: 'Sacramento', cursive;
-    font-size: 500%;
+    font-size: 650%;
     font-weight: 100;
     float: left;
     color: rgb(245,227,235);
-    text-shadow: 5px 5px 12px rgb(180,61,116);
+    text-shadow: 5px 5px 12px rgb(165,55,112);
     padding-top: 10px;
     padding-left: 50px;
 
@@ -42,13 +56,15 @@ header h1:hover {
 
 .menu a {
     color: rgb(245,227,235);
-    text-shadow: 4px 4px 5px rgb(180,61,116);
+    text-shadow: 4px 4px 5px rgb(165,55,112);
     font-weight: 100;
 }
 
 .menu a:hover {
     color: rgb(212,174,193);
 }
+
+/* Hero Image style */
 
 section img {
     width: 100%;
@@ -64,4 +80,25 @@ section img {
     to{
         transform: scale(1.0);
     }
+}
+
+/* Live Shows Style */
+
+.live {
+    background-color: rgb(33,31,32);
+    color: rgb(165,55,112);
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.live a {
+    color: rgb(245,227,235);
+    text-shadow: 4px 4px 5px rgb(165,55,112);
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.live a:hover {
+    color: rgb(212,174,193);
 }
