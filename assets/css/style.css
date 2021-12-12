@@ -167,3 +167,25 @@ input[type=submit]:hover {
 a:hover, a:focus, a:active, a:visited, a:link{
     text-decoration: none;
 }
+
+/* Confirmation style */
+
+.confirmation {
+    text-align: center;
+}
+
+.return {
+    text-align: center;
+}
+
+.return a {
+    color: rgb(245,227,235);
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 4px 4px 5px rgb(165,55,112);
+    font-weight: 100;
+    font-size: large;
+}
+
+.return a:hover {
+    color: rgb(212,174,193);   
+}
