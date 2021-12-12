@@ -181,9 +181,9 @@ a:hover, a:focus, a:active, a:visited, a:link{
 .return a {
     color: rgb(245,227,235);
     font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
     text-shadow: 4px 4px 5px rgb(165,55,112);
     font-weight: 100;
-    font-size: large;
 }
 
 .return a:hover {
