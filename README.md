@@ -156,6 +156,8 @@ This is the main website for a musician called Saccharyn. It is designed to be a
 
     + Used [Bootstrap4](https://getbootstrap.com/docs/4.5/getting-started/introduction/) throughout website for styling purposes, namely the naviation bar, the grid for the live shows content, and also for responsiveness across different devices.
 
+    + Used [this code](https://stackoverflow.com/questions/21983508/strange-underlines-in-font-awesome-css) to fix issue with blue line appearing when hovering over Font Awesome icons on footer.
+
 * Content
 
     + All content was written by the developer

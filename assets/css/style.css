@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Sacramento&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
     background-color: rgb(33,31,32);
 }
 
@@ -90,6 +87,7 @@ section img {
     font-weight: 200;
     font-size: large;
     text-align: center;
+    padding: 100px 0 0 0;
 }
 
 .live a {
@@ -105,11 +103,67 @@ section img {
 
 /* Media Style */
 
-.mediasection {
+.media-section {
     text-align: center;
     padding: 100px 0 0 0;
 }
 
-.mediasection iframe {
+.media-section iframe {
     padding: 30px 50px 30px 50px;
+}
+
+/* Sign up style */
+
+.signup {
+    text-align: center;
+    padding: 100px 0 200px 0;
+}
+
+form input {
+    background-color: rgb(245,227,235);
+    color: rgb(165,55,112);
+    font: 'Josefin Sans', sans-serif;
+}
+
+input[type=email] {
+    width: 30%;
+    border: 2px solid rgb(212,174,193);
+}
+
+input[type=email]:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    width: 10%;
+    border: 2px solid rgb(212,174,193);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(212,174,193);
+}
+
+/* Footer style */
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links i {
+    color: rgb(245,227,235);
+    text-shadow: 4px 4px 5px rgb(165,55,112);
+    font-size: x-large;
+    padding: 0 2% 0 2%;
+}
+
+.social-links i:hover {
+    color: rgb(212,174,193);
+}
+
+a:hover, a:focus, a:active, a:visited, a:link{
+    text-decoration: none;
 }
