@@ -58,8 +58,8 @@ This is the main website for a musician called Saccharyn. It is designed to be a
 
     + Imagery:
 
-        - The images chosen were commissioned by the artist for use in social media websites and other marketing materials, including this website. They include a title banner displaying the word "Saccharyn" in a glow neon-pink and a main image of a bust of the artist also in a glow neon-pink with blue and pink background details. Both images have the same very dark grey background colour, which ties the style together. 
-        - The title banner was used as a header whereas the bust image was used as a hero image.
+        - The images chosen were commissioned by the artist for use in social media websites and other marketing materials, including this website. They include a main image of a bust of the artist in a glow neon-pink with blue and pink background details. The image has a very dark grey background colour, which is used throughout the body of the website.
+        - The bust image was used as a hero image.
         - Imagery is very important as it ties together with all marketing materials relating to the artist, including social media profiles and pages on services such as [Spotify](https://open.spotify.com/artist/7BrG3qmLmDp8B30dzd657d).
 
     ---
@@ -119,7 +119,7 @@ This is the main website for a musician called Saccharyn. It is designed to be a
     + Navigation logo issue:
         - An image was provided of the word 'Saccharyn' written in neon pink to be used as the logo for the header of the website, however this image did not fit with the style of the header bar, as it was too small for its purpose and increasing its size meant increasing the height of the header, pushing the hero image further down, which affected the overall design of the page.
         - The logo image was resized and moved around, cropped and resized, however the issue persisted. It was also found during this process that the colours used in this logo differed from the colours used in the hero image, which looked inconsistent when generating the colour palette for the website.
-        - As a result it was decided that the logo image would be replaced by text styled with CSS using the colour palette from the hero image to be consistent with the pink neon light effect by using a text-shadow function. This also meant a hover pseudo-class could be employed to alter the colour of the text logo when being hovered over, which was not possible with a static image.
+        - As a result it was decided that the logo image would be replaced by text styled with CSS using the colour palette from the hero image to be consistent with the pink neon light effect by using a text-shadow property. This also meant a hover pseudo-class could be employed to alter the colour of the text logo when being hovered over, which was not possible with a static image.
         - Overall using text was found to be a more elegant solution for making the website more consistent, whilst also looking better in terms of design, improving user experience.
         - In future a new logo will be commissioned with different parameters to fit the spcifications of the website design, as the original logo provided was designed as a cover image for social media websites such as [Twitter](www.twitter.com), [Instagram](www.instagram.com) and [Facebook](www.facebook.com), and not designed with a website in mind.
 
@@ -129,21 +129,88 @@ This is the main website for a musician called Saccharyn. It is designed to be a
     + Padding issue on footer:
         - I noticed the footer icons were not centred properly on the screen and were pushed up further from the bottom of the screen than intended. Using Dev Tools on Chrome I noticed there was a 40px padding on the left pushing the icons off-centre and also 1rem margin pushing the icons up. I overrode this padding and margin inherited from Bootstrap for ul elements by specifying padding and margin as 0 in the class selected for the footer in the stylesheet.
         
-
-    
+    + Centering issue with nav in media query:
+        - I was initially unable to center the menu bar when using a media query for screens smaller in width than 1024px by using the text-align property, as Bootstrap styling overrode this to justify the nav elements to the right. I used Dev Tools on Chrome to view the specifc rule being applied to this, which was "justify-content: flex-end!important;". I overrode this by specifying in the media query section for the .justify-content-end class "justify-content: center!important;". I needed to add the "!important" part in order for the media query to override the Bootstap style.
 
     ---
 
 * W3C Markup Validator
-
+    The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+    + [W3C Markup Validator](https://validator.w3.org/)
+    + [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     ---
 
 * Testing User Stories from User Experience (UX) Section
+    + First time visitor goals:
 
+        - As a first time visitor I want to understand the purpose of the website:
+            - Upon entering the website the visitor is greeted with the title of the page and navigation bar to go directly to the desired part of the website.
+            - The hero image is featured prominently, displaying the main marketing image for the artist.
+            - The user can either click one of the options on the navigation bar or scroll down for more content.
+
+        - I want to be able to easily navigate the site and its contents.
+            - The website is organised in a simple one page format with a navigation bar at the top to take the user directly to the section they are interested in.
+            - The user may also scroll down the website for all its contents.
+            - On the confirmation page after the user enters an e-mail to sign-up to the newsletter there is a clear link to click to go back to the main website.
+
+        - I want to be able to find links to external social media profiles.
+            - There are links to external social media websites on the footer of the website.
+            - Each link uses an icon identifying the social media profile in question.
+            - Each link opens in a separate tab so not to take the user away from the website.
+
+        - I want to find media content showcasing the artist’s music.
+            - The media section of the website contains 4 music videos embedded featuring the artist performing live as well as music videos.
+
+        ---
+
+    + Returning visitor:
+
+        - As a returning visitor I want to find news on any upcoming releases or shows the artist has lined up.
+            - When visiting the website, the user can find upcoming live show dates by scrolling down to the Live Shows section of the website or clicking on the Live link on the nav bar.
+
+        -  I want to find functioning links to social media profiles where there may be new posts from the artist.
+            - There are links to external social media websites on the footer of the website.
+            - Each link uses an icon identifying the social media profile in question.
+            - Each link opens in a separate tab so not to take the user away from the website.
+        ---
+
+    + Frequent visitor:
+
+        - As a frequent visitor I want to find updates from the artist about new shows or releases.
+            - When visiting the website, the user can find upcoming live show dates by scrolling down to the Live Shows section of the website or clicking on the Live link on the nav bar.
+
+        - I want to be able to sign up to a newsletter in order to receive frequent updates from the artist on their upcoming releases and shows.
+            - At the bottom of the website page there is a form to submit the user's e-mail address to sign up for a newsletter from the artist.
     ---
 
 * Further Testing
+    + Carried out the following tests on the website links:
+        |Action|Expected Behaviour|Outcome|
+        |------|------------------|-------|
+        |Click Home|Be directed to top of index.html page|Successful|
+        |Click Live|Be directed to top of Live Shows section|Successful|
+        |Click Media|Be directed to top of Media section|Successful|
+        |Click The Moon, Cardiff|Be directed to homepage for The Moon website|Successful|
+        |Click Buy Tickets|Be directed to webpage relating to live show|Successful|
+        |Click Truefest, Hay-on-Wye|Be directed to homepage for Truefest website|Successful|
+        |Click Buy Tickets|Be directed to webpage for ticket sales for Truefest|Successful|
+        |Click Facebook icon|Be directed to Saccharyn Facebook profile|Successful|
+        |Click Instagram icon|Be directed to Saccharyn Instagram profile|Successful|
+        |Click Twitter icon|Be directed to Saccharyn Twitter profile|Successful|
+        |Click Soundcloud icon|Be directed to Saccharyn Soundcloud profile|Successful|
+        |Click Spotify icon|Be directed to Saccharyn Spotify profile|Successful|
+        |Click Bandcamp icon|Be directed to Saccharyn Bandcamp profile|Successful|
 
+    + Tested website on following devices:
+        - Macbook Pro 2012 12"
+        - iPhone 11 (landscape and portrait)
+        - iMac 2019 27"
+        - iPhone SE (landscape and portrait)
+        - iPhone 8 Plus (landscape and portrait)
+
+    + Comments:
+        - My mentor had an error when opening the Instagram link from the website, however as my mentor is located in a different part of the world this may have been due to a server issue in his location.
+        - The newsletter form has been programmed with a landing page for aesthetic purposes and there is no working backend for this form, however this will be added to the final website once I have the skills to do so later in the programme.
 
 ---
 
