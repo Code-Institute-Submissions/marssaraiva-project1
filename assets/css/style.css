@@ -147,6 +147,8 @@ input[type=submit]:hover {
 
 .social-links {
     text-align: center;
+    padding-inline-start: 0px;
+    margin-bottom: 0;
 }
 
 .social-links li {
