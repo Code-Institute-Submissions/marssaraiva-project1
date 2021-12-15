@@ -192,6 +192,34 @@ a:hover, a:focus, a:active, a:visited, a:link{
     color: rgb(212,174,193);   
 }
 
-@media screen {
-    
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 300px;
+    }
+
+    header h1 {
+        font-size: 500%;
+        float: none;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .menu ul {
+        margin-top: 40px;
+    }
+
+    .menu li {
+        float: none;
+    }
+
+    .menu a {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .justify-content-end {
+        justify-content: center!important;
+    }
 }
