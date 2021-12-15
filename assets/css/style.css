@@ -147,7 +147,7 @@ input[type=submit]:hover {
 
 .social-links {
     text-align: center;
-    padding-inline-start: 0px;
+    padding-inline-start: 0;
     margin-bottom: 0;
 }
 
@@ -190,4 +190,8 @@ a:hover, a:focus, a:active, a:visited, a:link{
 
 .return a:hover {
     color: rgb(212,174,193);   
+}
+
+@media screen {
+    
 }

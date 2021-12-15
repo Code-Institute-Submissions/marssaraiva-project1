@@ -122,6 +122,12 @@ This is the main website for a musician called Saccharyn. It is designed to be a
         - As a result it was decided that the logo image would be replaced by text styled with CSS using the colour palette from the hero image to be consistent with the pink neon light effect by using a text-shadow function. This also meant a hover pseudo-class could be employed to alter the colour of the text logo when being hovered over, which was not possible with a static image.
         - Overall using text was found to be a more elegant solution for making the website more consistent, whilst also looking better in terms of design, improving user experience.
         - In future a new logo will be commissioned with different parameters to fit the spcifications of the website design, as the original logo provided was designed as a cover image for social media websites such as [Twitter](www.twitter.com), [Instagram](www.instagram.com) and [Facebook](www.facebook.com), and not designed with a website in mind.
+
+    + Blue line near social media icons:
+        - When hovering over the social media icons there was an unwanted blue line appearing to the right of the highlighted icon. I googled the issue and this appears to be a common issue when hovering over Font Awesome icons. I used the code suggesed [here](https://stackoverflow.com/questions/21983508/strange-underlines-in-font-awesome-css) which fixed the issue.
+
+    + Padding issue on footer:
+        - I noticed the footer icons were not centred properly on the screen and were pushed up further from the bottom of the screen than intended. Using Dev Tools on Chrome I noticed there was a 40px padding on the left pushing the icons off-centre and also 1rem margin pushing the icons up. I overrode this padding and margin inherited from Bootstrap for ul elements by specifying padding and margin as 0 in the class selected for the footer in the stylesheet.
         
 
     
@@ -160,11 +166,11 @@ This is the main website for a musician called Saccharyn. It is designed to be a
 
 * Content
 
-    + All content was written by the developer
+    + All content was written by the developer.
 
 * Media
 
-    + Hero image was created by [Sara Christova](https://www.sarachristova.com/)
+    + Hero image was created by [Sara Christova](https://www.sarachristova.com/).
 
 * Acknowledgements
 
