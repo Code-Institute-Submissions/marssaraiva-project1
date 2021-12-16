@@ -242,4 +242,7 @@ a:hover, a:focus, a:active, a:visited, a:link{
     .media-section {
         padding: 50px 0 0 0;
     }
+
+    input[type=submit] {
+        width: 20%;
 }
