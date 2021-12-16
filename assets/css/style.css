@@ -83,7 +83,7 @@ section img {
 /* Live Shows Style */
 
 .live {
-    color: rgb(165,55,112);
+    color: rgb(245,227,235);
     font-weight: 200;
     font-size: large;
     text-align: center;
@@ -245,4 +245,5 @@ a:hover, a:focus, a:active, a:visited, a:link{
 
     input[type=submit] {
         width: 20%;
+    }
 }
