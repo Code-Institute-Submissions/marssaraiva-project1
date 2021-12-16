@@ -223,6 +223,10 @@ a:hover, a:focus, a:active, a:visited, a:link{
     section h2 {
         font-size: 250%;
     }
+
+    input[type=submit] {
+        width: 20%;
+    }
 }
 
 @media screen and (max-width: 480px) {
