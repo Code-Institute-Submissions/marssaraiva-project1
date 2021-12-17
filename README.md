@@ -209,7 +209,7 @@ This is the main website for a musician called Saccharyn. It is designed to be a
         - iPhone 8 Plus (landscape and portrait)
 
     + Comments:
-        - My mentor had an error when opening the Instagram link from the website, however as my mentor is located in a different part of the world this may have been due to a server issue in his location.
+        - My mentor had an error when opening the Instagram link from the website, however as my mentor is located in a different part of the world this may have been due to a server issue in his location. He was able to fix this error however by force refreshing his page.
         - The newsletter form has been programmed with a landing page for aesthetic purposes and there is no working backend for this form, however this will be added to the final website once I have the skills to do so later in the programme.
 
 ---
