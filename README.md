@@ -69,7 +69,9 @@ This is the main website for a musician called Saccharyn. It is designed to be a
     + Responsiveness:
     
         - The website design is minimalist by nature, so I wanted to keep the design fairly similar for different device sizes.
-        - The main difference between desktop and mobile device design is the positioning of the 
+        - The main difference between desktop and mobile device design is the positioning of the title "Saccharyn" and the navigation menu links. In larger screen sizes the title is floated to the left and the navigation menu is floated to the right. In smaller screen sizes the title sits on top of the navigation menu.
+        - A "burger" menu button was considered for small (under 480px) screen sizes, however, as there are only 3 items on the navigation menu, which fit neatly even in smaller screen sizes, it was deemed that it would be better user experience with fewer clicks to have the full meny displayed on screen rather than the extra clicks to open the burger menu with the options.
+        - As the website develops and expands in future, a "burger" menu will be considered for smaller screens as the navigation menu item number also expands (for instance to include a "News" section).
 
     ---
 
@@ -259,6 +261,42 @@ This is the main website for a musician called Saccharyn. It is designed to be a
 
 ## Deployment
 
+* GitHub Pages
+
+    The project was deployed to GitHub Pages using the following steps:
+        1. Log in to GitHub and locate the [repository](https://github.com/marssaraiva/project1).
+        2. At the top of the repository, click the "Settings" button (cogwheel icon).
+        3. Scroll down and click "Pages" on the left-hand side (second from last option on the list).
+        4. Under "Source", click the dropdown "Branch" and select "main".
+        5. Click "Save".
+        6. The page will refresh and notify the website is ready to be published and provide the link.
+        7. It may take a few minutes for the website to be published on the link.
+
+    ---
+
+* Forking a GitHub Repository
+
+    By forking the repository, a new copy of the same is made on your GitHub account, allowing you to view or make changes without affectin the original repository. This can be done following these steps:
+        1. Log in to GitHub and locate the [repository](https://github.com/marssaraiva/project1).
+        2. At the top of the repository, click the "Fork" button.
+        3. You should now have a copy of the original repository in your GitHub account.
+
+    ---
+
+* Making a Local Clone
+
+    Make a local clone of the repository by following these steps:
+        1. Log in to GitHub and locate the [repository](https://github.com/marssaraiva/project1).
+        2. At the top of the repository list of files click the "Code" button.
+        3. To clone the repository using HTTPS click HTTPS and then copy the link.
+        4. To clone the repository using SSH click SSH and then copy the link.
+        5. To clone the repository using GitHub CLI click GitHub CLI and then copy the link.
+        6. Open Terminal.
+        7. Change the current working directory to the location where you want the cloned directory.
+        8. Type git clone, and then paste the URL you copied earlier.
+        9. Press enter and your local clone will be created.
+
+    Please see [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) for further information on cloning a repository.
 
 ---
 
@@ -273,13 +311,19 @@ This is the main website for a musician called Saccharyn. It is designed to be a
 
     + Used [this code](https://stackoverflow.com/questions/21983508/strange-underlines-in-font-awesome-css) to fix issue with blue line appearing when hovering over Font Awesome icons on footer.
 
+    ---
+
 * Content
 
     + All content was written by the developer.
 
+    ---
+
 * Media
 
     + Hero image was created by [Sara Christova](https://www.sarachristova.com/).
+
+    ---
 
 * Acknowledgements
 
