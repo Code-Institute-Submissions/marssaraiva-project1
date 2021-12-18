@@ -233,6 +233,10 @@ This is the main website for a musician called Saccharyn. It is designed to be a
         |Click Soundcloud icon|Be directed to Saccharyn Soundcloud profile|Successful|
         |Click Spotify icon|Be directed to Saccharyn Spotify profile|Successful|
         |Click Bandcamp icon|Be directed to Saccharyn Bandcamp profile|Successful|
+        |Type e-mail into e-mail input and click 'Submit' button|Be directed to confirmation page|Successful|
+        |Click 'Submit' without entering text into e-mail field|Be directed to fill in field before clicking 'Submit'|Successful|
+        |Enter text without @ in e-mail field and clicking 'Submit'|Be directed to enter valid e-mail address before clicking 'Submit'|Successful|
+        
 
     ---
 
